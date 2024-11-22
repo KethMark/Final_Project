@@ -123,7 +123,7 @@ export const DocumentClient = ({ document, AvatarProf }: documents) => {
         });
       }
     },
-    streamMode: "text",
+    //streamMode: "text",
     onError: (e) => {
       console.error("Error occurred:", e);
       toast.error(e.message);
